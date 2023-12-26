@@ -25,6 +25,22 @@ public class Variables {
 		int num2=13;
 		int result=num1+num2;
 		System.out.println("The addition of num1 and num2 is:"+result);
+		/*
+		 * well we store different types of data into a certain variables
+		 * similarly we can also store binary values , hexa decimal values as well
+		 * 
+		 */
+		int bin=0b101;
+		int hex=0x7E;
+		System.out.println("The binary value is:"+bin);
+		System.out.println("The hexa decimal value is:"+hex);
+		/*
+		 * while storing a data in a variable it might possible there can be many zero's in data
+		 * due to many number of zero's confusion may occur.
+		 *in order to avoid confusion we use underscore in between the data values which is exactly ignored by comipler
+		 */
+		int p=100_00_0;//5 zero's basically
+		System.out.println("The value of p is:"+p);
 	}
 
 }
