@@ -1,4 +1,4 @@
-package StaticKeywrd;
+package StaticKeyword;
 
 public class Static_Methods {
 	public static void main(String[] args) {
