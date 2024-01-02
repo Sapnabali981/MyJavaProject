@@ -5,6 +5,9 @@ public class Constructors {
 	String name;
 	String city;
 	public Constructors() {
+		/*
+		 * using constructor we can set the default values for instance variables of an certain object
+		 */
 		name="sapna";
 		city="mumbai";
 	}
